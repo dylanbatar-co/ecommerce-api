@@ -20,7 +20,6 @@ app.use(
     graphiql: true,
   })
 );
-
 app.use("/api/v1", require("./routes/index"));
 
 // Running server
